@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
     background: beige;
     background-image: url('https://i.blogs.es/4e5da4/github3/1366_2000.jpg');
@@ -6,13 +10,13 @@ body{
 }
 
 #cabecera, #cuerpo, #cabecera2, #cuerpo2{
-    text-align center;
+    text-align: center;
     border:2px solid black;
     border-radius: 8px;
-    background-color: white;
-    width: 50%;
+    width: 90%;
+    max-width: 800px;
     margin: 20px auto; 
-    padding: 12px;
+    padding: 16px;
     background: beige;
     opacity: 0.95;
 }
