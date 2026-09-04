@@ -1,0 +1,27 @@
+body{
+    background: beige;
+    background-image: url('https://i.blogs.es/4e5da4/github3/1366_2000.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#cabecera, #cuerpo{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 50%;
+    margin: 20px auto; 
+    padding: 12px;
+    background: beige;
+    opacity: 0.95;
+}
+
+p{
+    font-size: 20px;
+    font-family: Consolas;
+}
+
+h1{
+    font-family: Arial;
+}
